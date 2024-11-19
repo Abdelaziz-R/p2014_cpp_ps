@@ -1,7 +1,8 @@
-@include <"iostream">
+#include <"iostream"> // 1/2
 
-int Main()
+int main() // 0/1
 {
-  std::cout << "Hello, World!\n"<<endl;
-  return 0;
+  std::cout << "Hello, World!" << std::endl; // 4/4
+  return 0; // 1/1
 }
+// great work 😎 8/10 ⭐
