@@ -1,18 +1,12 @@
 #include <iostream>
 using namespace std;
 
-
-
 int main()
-
 {
+    // prompting user for 2 operands and an operator 2.5/2
     double num1;
-        
-    double    num2;
+    double num2;
     char op;
-
-
-
     cout << "Enter the two operands:" <<endl;
 
     if (!(cin >> num1)) 
@@ -30,6 +24,7 @@ int main()
     cout << "Enter the operator + - * / %:" <<endl;
     cin >> op;
 
+    // checking user inputs and processing 4/4
     if (op == '+') 
     {
         cout << "(" << num1 << ") + (" << num2 << ") = " << num1 + num2 << "" <<endl;
@@ -63,7 +58,7 @@ int main()
         else {
             cout << "(" << num1 << ") / (" << num2 << ") = " << num1 / num2 << "" <<endl;
         }
-    }
+    } // 1/1
 
     else if (op == '%')
     {
@@ -76,16 +71,18 @@ int main()
             cout << "Math Error: cannot perform modulo with 0." <<endl;
         }
         else {
+            // printing the result if all data is valid 1/1
             int result = static_cast<int>(num1) % static_cast<int>(num2);
             cout << "(" << static_cast<int>(num1) << ") % (" << static_cast<int>(num2) << ") = " << result << "" <<endl;
         }
-
-    }
+    } // 1/1
 
     else 
     {
         cout << "Invalid character for operator." <<endl;
-    }
+    } // 1/1
+    // 1/1
 
     return 0;
 }
+// great work 😎 10/10 ⭐
